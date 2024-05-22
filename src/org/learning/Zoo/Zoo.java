@@ -10,21 +10,21 @@ public class Zoo {
             animal.makeNoise();
             animal.eat();
 
-            if (animal instanceof canFly) {
-                makeFly((canFly)animal);
+            if (animal instanceof CanFly) {
+                makeFly((CanFly)animal);
             }
 
-            if (animal instanceof canSwim) {
-                makeSwim((canSwim)animal);
+            if (animal instanceof CanSwim) {
+                makeSwim((CanSwim)animal);
             }
         }
     }
 
-    public static void makeFly(canFly animal) {
+    public static void makeFly(CanFly animal) {
         animal.fly();
     }
 
-    public static void makeSwim(canSwim animal) {
+    public static void makeSwim(CanSwim animal) {
         animal.swim();
     }
 }

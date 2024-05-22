@@ -1,6 +1,6 @@
 package org.learning.Zoo;
 
-public class Dolphin extends Animal implements canSwim {
+public class Dolphin extends Animal implements CanSwim {
 
     public Dolphin(String name) {
         super(name);

@@ -1,6 +1,6 @@
 package org.learning.Zoo;
 
-public interface canFly {
+public interface CanFly {
 
     void fly();
 }

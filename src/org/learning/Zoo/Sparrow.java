@@ -1,6 +1,6 @@
 package org.learning.Zoo;
 
-public class Sparrow extends Animal implements canFly {
+public class Sparrow extends Animal implements CanFly {
 
     public Sparrow(String name) {
         super(name);

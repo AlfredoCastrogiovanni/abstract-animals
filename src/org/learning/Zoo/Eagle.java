@@ -1,6 +1,6 @@
 package org.learning.Zoo;
 
-public class Eagle extends Animal implements canFly {
+public class Eagle extends Animal implements CanFly {
 
     public Eagle(String name) {
         super(name);

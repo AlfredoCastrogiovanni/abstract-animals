@@ -1,6 +1,6 @@
 package org.learning.Zoo;
 
-public interface canSwim {
+public interface CanSwim {
 
     void swim();
 }
